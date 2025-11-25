@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Img/logo-pratinho-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      nomodule=""
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="JS/script.js"></script>
+    <title>Seu Pratinho</title>
+  </head>
+
+  <body>
+    <header class="header sticky">
+      <a href="#"
+        ><img class="logo" src="Img/logo-pratinho.svg" alt="seu pratinho logo"
+      /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Como funciona</a></li>
+          <li><a class="main-nav-link" href="#meals">Refeições</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Opiniões</a></li>
+          <li><a class="main-nav-link" href="#pricing">Preços</a></li>
+          <li><a class="main-nav-link" href="#cta">Experimente grátis</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Seu almoço saboroso todo dia</h1>
+            <p class="hero-description">
+              365 dias ao ano, seu pratinho preferido, caseiro, com ingredientes
+              frescos para você
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-small"
+              >Sua refeição saudável</a
+            >
+            <a href="#how" class="btn btn--outline">Saiba mais &darr;</a>
+            <div class="refeicao-pratos">
+              <div class="img-refeicao">
+                <img src="Img/comida01.jpg" alt="foto de prato" />
+                <img src="Img/comida02.jpg" alt="foto de prato" />
+                <img src="Img/comida03.jpg" alt="foto de prato" />
+                <img src="Img/comida04.jpg" alt="foto de prato" />
+                <img src="Img/comida05.jpg" alt="foto de prato" />
+                <img src="Img/comida06.jpg" alt="foto de prato" />
+              </div>
+              <p class="text-refeicao">
+                Pratinho <span>todo dia para você</span>
+              </p>
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img
+              src="Img/pratinho.jpg"
+              class="hero-img"
+              alt="foto de pratinho"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Como visto em</h2>
+          <div class="logos">
+            <img src="Img/site-noticia-01.png" alt="Site notícia 01" />
+            <img src="Img/site-noticia-02.png" alt="Site notícia 02" />
+            <img src="Img/site-noticia-03.png" alt="Site notícia 03" />
+            <img src="Img/site-noticia-04.png" alt="Site notícia 04" />
+            <img src="Img/site-noticia-05.png" alt="Site notícia 05" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-como" id="how">
+        <div class="container">
+          <span class="subheading">Como funciona</span>
+          <h2 class="heading-secondary">Sua refeição diária</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-vertical">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Tudo para você</h3>
+            <p class="step-description">
+              No centro da mesa, um pratinho de refeição infantil, em vibrante
+              cor amarela, aguarda sua missão. Seções divididas acomodam um
+              arco-íris de alimentos: brócolis cozidos a vapor, cubos de frango
+              grelhado e fatias de manga fresca. Uma porção de arroz integral
+              preenche a maior seção, oferecendo a base para a energia
+              necessária. Ele é mais que um recipiente; é o mapa de uma jornada
+              nutritiva e saborosa para o pequeno explorador da comida.
+            </p>
+          </div>
+          <div class="step-image-box">
+            <img
+              src="Img/tela-celular-01.png"
+              class="step-img"
+              alt="tela de celular"
+            />
+          </div>
+          <div class="step-image-box">
+            <img
+              src="Img/tela-celular-02.png"
+              class="step-img"
+              alt="tela de aceitar"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Facilidade acima de tudo</h3>
+            <p class="step-description">
+              A conveniência de escolher o **tipo de pratinho** que se deseja
+              diariamente, diretamente **online**, transforma a rotina alimentar
+              em algo simples e prazeroso. Essa facilidade permite que, a cada
+              manhã, tarde ou noite, você decida se o dia pede um clássico
+              brasileiro como **estrogonofe**, uma opção mais leve como um
+              **grelhado com salada**, ou até mesmo um prato diferente, como uma
+              lasanha caseira. A vasta oferta de cardápios digitais proporciona
+              a liberdade de **variar sem cair na mesmice**, adaptando a
+              refeição não só ao seu paladar do dia, mas também à sua dieta ou à
+              quantidade de fome. Sem a obrigação de planejar ou cozinhar, a
+              escolha se torna um ato rápido e flexível, garantindo que o seu
+              almoço ou jantar seja sempre fresco, diversificado e entregue com
+              a máxima **agilidade** no conforto da sua casa ou trabalho.
+            </p>
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Variar sem mesmice</h3>
+            <p class="step-description">
+              A experiência de pedir um pratinho online transformou a forma como
+              desfrutamos de uma refeição caseira e saborosa. A comodidade
+              começa no conforto do seu sofá, permitindo que você navegue por um
+              menu variado — de feijoada a um PF executivo — com apenas alguns
+              cliques no seu celular ou computador. Sem a pressa de um
+              restaurante físico ou a necessidade de se deslocar, você escolhe,
+              personaliza o pedido (retirando um ingrediente, por exemplo), faz
+              o pagamento de forma segura e acompanha em tempo real o status da
+              preparação e da entrega. Essa facilidade não só economiza um tempo
+              precioso no dia a dia corrido, mas também garante que o seu desejo
+              por um almoço ou jantar pronto e reconfortante seja satisfeito com
+              a máxima praticidade, trazendo a culinária que você ama
+              diretamente à sua porta.
+            </p>
+          </div>
+          <div class="step-image-box">
+            <img
+              src="Img/tela-celular-03.png"
+              class="step-img"
+              alt="tela de entrega"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Refeições</span>
+          <h2 class="heading-secondary">Receitas caseiras e variadas</h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="Img/refeicao-01.png"
+              class="meal-img"
+              alt="feijoada vegetariana"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetariana">Vegetariana</span>
+              </div>
+              <p class="meal-title">Feijoada vegetariana</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flash-outline"></ion-icon
+                  ><span><strong>450</strong> calorias</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="diamond-outline"></ion-icon>
+                  <span>NutriScore&reg;<strong>80</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="reader-outline"></ion-icon>
+                  <span><strong>6.5</strong>/10</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="Img/refeicao-02.png"
+              class="meal-img"
+              alt="comida regional"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--regional">Regional</span>
+              </div>
+              <p class="meal-title">Pratinho</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flash-outline"></ion-icon
+                  ><span><strong>950</strong> calorias</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="diamond-outline"></ion-icon>
+                  <span>NutriScore&reg;<strong>90</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="reader-outline"></ion-icon>
+                  <span><strong>9.5</strong>/10</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Combine opções</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Acarajé</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Vatapá</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Baião de dois</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Carne de sol</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Moqueca de peixe</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Cuscuz</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Tapioca</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Bolo de rolo</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Queijo de Coalho</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container all-recipes">
+          <a href="#" class="link">Veja todos os pratos &rarr;</a>
+        </div>
+      </section>
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Voz do povo</span>
+          <h2 class="heading-secondary">
+            Basta saborear uma vez para repetir sempre
+          </h2>
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="Img/cliente-01.png"
+                alt="foto de cliente"
+              />
+              <blockquote class="testimonial-text">
+                O Seu Pratinho transformou minhas refeições! Com o pouco tempo
+                que tenho, a variedade e o sabor das opções superaram minhas
+                expectativas, tornando meu almoço muito mais agradável e
+                prático.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Fulane</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="Img/cliente-02.png"
+                alt="foto de cliente"
+              />
+              <blockquote class="testimonial-text">
+                Sério, é mais do que uma refeição, é um conforto para a alma, e
+                eu garanto, de coração, que você não vai encontrar nada igual —
+                é a definição pura da excelência da culinária regional.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Cicrane</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="Img/cliente-03.png"
+                alt="foto de cliente"
+              />
+              <blockquote class="testimonial-text">
+                Eu já era fã de uma boa comida, mas o "pratinho" me ganhou de um
+                jeito que nunca imaginei; é aquele sabor que te leva de volta
+                para casa, uma mistura perfeita da cremosidade do vatapá com o
+                tempero caseiro do creme de galinha, tudo envolto no arroz
+                soltinho.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Beltrane</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="Img/cliente-04.png"
+                alt="foto de cliente"
+              />
+              <blockquote class="testimonial-text">
+                Com a vida corrida, a facilidade de pedir o pratinho é um
+                presente: em poucos minutos, tenho essa refeição completa e
+                deliciosa, sem complicação, entregue na minha porta. Posso dizer
+                que ele salvou minhas noites, oferecendo o melhor da comida
+                regional de forma prática e rápida.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Fubeltrane</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-01.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-02.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-03.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-04.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-05.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-06.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-07.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-08.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-09.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-10.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-11.png" alt="prato de comida bonita" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="Img/comida-galeria-12.png" alt="prato de comida bonita" />
+          </figure>
+        </div>
+      </section>
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Preços mensais</span>
+          <h2 class="heading-secondary">Comer bem e economizar</h2>
+        </div>
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Básico</p>
+              <p class="plan-price"><span>$</span>350</p>
+              <p class="plan-text">Menos de $12 por refeição!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>1 refeição por dia</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Pedido de 11h até 15h</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Entrega grátis</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Comece a comer bem</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Total</p>
+              <p class="plan-price"><span>$</span>750</p>
+              <p class="plan-text">Menos de $13 por refeição!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>2 refeições por dia</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Pedido de 11h até 20h</span>
+              </li>
+              <li class="list-item">
+                <ion-icon
+                  class="list-icon"
+                  name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Entrega grátis</span>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn--full">Comece a comer bem</a>
+            </div>
+          </div>
+        </div>
+        <div class="container grid">
+          <aside class="plan-details">
+            Você cancela quando quiser, sem taxas ou multas.
+          </aside>
+        </div>
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="calendar-outline"></ion-icon>
+            <p class="feature-title">Todos os dias</p>
+            <p class="feature-text">
+              Nossos planos cobrem 365 dias do ano, feriados e finais de semana
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local e orgânico</p>
+            <p class="feature-text">
+              Todos os alimentos são adquiridos por produtores locais e
+              orgânicos
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">Embalagens biodegradáveis</p>
+            <p class="feature-text">
+              Todas as nossas embalagens são reutilizáveis e biodegradáveis
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="pause-circle-outline"
+            ></ion-icon>
+            <p class="feature-title">Pause sua assinatura</p>
+            <p class="feature-text">
+              Se for viajar, ou precisar de um tempo, pode pausar sua assinatura
+              sem nenhum custo extra, e voltar quando quiser.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Oferecemos uma refeição grátis!</h2>
+              <p class="cta-text">
+                Refeições saudáveis, prontas, estão esperando por você. Comece a
+                comer bem hoje. Você pode cancelar ou pausar seu plano quando
+                quiser. E a primeira refeição é por nossa conta
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Nome completo</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Seu nome"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Endereço de e-mail</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="email@exemplo.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where"></label>
+                  <select id="select-where" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="friends">Amigos</option>
+                    <option value="family">Família</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="outhers">Outros</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">Assine agora</button>
+              </form>
+            </div>
+            <div
+              class="cta-image-box"
+              role="img"
+              aria-label="vários pratos nodestinos"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo"
+            ><img
+              class="logo"
+              src="Img/logo-pratinho.svg"
+              alt="seu pratinho logo"
+          /></a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-mastodon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">Copyright &copy; 2030 Seu Pratinho</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contato</p>
+          <address class="contacts">
+            <p class="address">
+              Avenida Grande Coisa, 5600, 10º andar, Fortaleza, Ceará, 600000
+            </p>
+            <p>
+              <a class="footer-link" href="tel:3000-2000">3000-2000</a>
+              <a
+                class="footer-link"
+                href="mailto:atendimento@seupratinho.com.br"
+                >atendimento@seupratinho.com.br</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Conta</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Criar conta</a></li>
+            <li><a class="footer-link" href="#">Entrar</a></li>
+            <li><a class="footer-link" href="#">Para iOS</a></li>
+            <li><a class="footer-link" href="#">Para Android</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Empresa</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sobre nós</a></li>
+            <li><a class="footer-link" href="#">Para empresas</a></li>
+            <li><a class="footer-link" href="#">Parceiros</a></li>
+            <li><a class="footer-link" href="#">Vagas</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Recursos</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Ajuda</a></li>
+            <li><a class="footer-link" href="#">Privacidade</a></li>
+            <li><a class="footer-link" href="#">Receitas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
